@@ -1,0 +1,38 @@
+body
+{
+    background-color: #b3f5f285;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: #09eadb;
+    margin: 40px;
+    padding: 10px 10px 10px 10px;   
+    border: 5px solid black;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    background-color: #de1009c3;
+    color: aqua;
+}
+
+#p1
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #292b2c;
+}
+.p2
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #292b2c;
+}
