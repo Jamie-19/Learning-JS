@@ -42,4 +42,21 @@ let z=12;
 x=Math.pow(2,3);
 console.log(x);
 let max=Math.max(x,y,z);
-console.log(max);*/
+console.log(max);
+
+
+let x;
+let y;
+let z;
+
+document.getElementById("myButton1").onclick = function() {
+    x=document.getElementById("myText1").value;
+    x=Number(x);
+
+    y=document.getElementById("myText2").value;
+    y=Number(y);
+    
+    z=Math.sqrt(Math.pow(x,2)+Math.pow(y,2));
+    document.getElementById("myText3").innerHTML = "The hypotenuse is " + z;
+    console.log(z);
+}*/
