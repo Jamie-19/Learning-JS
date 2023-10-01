@@ -33,4 +33,13 @@ y=Number(y);
 x=String(x);
 console.log(typeof y);
 console.log(typeof x);
-console.log(x).value;*/
+console.log(x).value;
+
+let x;
+let y=10;
+let z=12;
+
+x=Math.pow(2,3);
+console.log(x);
+let max=Math.max(x,y,z);
+console.log(max);*/
